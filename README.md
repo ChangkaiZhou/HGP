@@ -1,7 +1,7 @@
 Variational Model Selection of Inducing Points in Sparse Heteroscedastic Gaussian Process Regression
 ====
 
-This is the implementation of the heteroscedastic GP (HGP) with greedy EM algorithm of adding inducing points developed in "*[Changk Zhou, Wensheng Wang, Variational Model Selection of Inducing Points in Sparse Heteroscedastic Gaussian Process Regression].*" Please see the paper for further details. These codes based on the HGP in https://github.com/LiuHaiTao01.
+This is the implementation of the heteroscedastic GP (HGP) with greedy EM algorithm of adding inducing points developed in "*[Changkai Zhou, Wensheng Wang, Variational Model Selection of Inducing Points in Sparse Heteroscedastic Gaussian Process Regression].*" Please see the paper for further details. These codes based on the HGP in https://github.com/LiuHaiTao01.
 
 We here focus on the heteroscedastic Gaussian process regression $y = f + \mathcal{N}(0, \exp(g))$ which integrates the latent function and the noise together in a unified non-parametric Bayesian framework. Though showing flexible and powerful performance, HGP suffers from the cubic time complexity, which strictly limits its application to big data. 
 
